@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvColor"
+    android:layout_gravity="center"
+    app:cardCornerRadius="4dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="3dp"
+            android:background="#FAFAFA"
+            android:onClick="reiniciar"
+            android:text="...." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNombre"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Nombre"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/lblApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Apellido"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:id="@+id/lblDescrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:text="descripcion"
+            android:textColor="#212121"
+            android:textSize="15sp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:layout_width="720dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mercadolibre_5"
+
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="#424242"
+            >
+
+
+        </View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:background="#E0E0E0"
+        android:onClick="reiniciar"
+        android:text="Like" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:background="#E0E0E0"
+        android:onClick="reiniciar"
+        android:text="Comentar" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="3dp"
+        android:background="#E0E0E0"
+        android:onClick="reiniciar"
+        android:text="Compartir" />
+
+</LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
